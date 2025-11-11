@@ -41,5 +41,5 @@ MindLink is built in alignment with **UN Sustainable Development Goal 3 — Good
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/mindlink.git
+git clone https://github.com/chrisszlycoen/mindlink.git
 cd mindlink
