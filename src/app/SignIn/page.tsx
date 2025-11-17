@@ -10,13 +10,13 @@ import { Label } from "@/components/ui/label";
 import { Eye, EyeOff, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function Home() {
+export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center pt-16">
+    <div className="min-h-screen bg-linear-to-br from-primary-50 to-primary-100 flex items-center justify-center pt-16">
       <Navbar />
 
       <motion.div
@@ -58,10 +58,10 @@ export default function Home() {
               />
               <button
                 type="button"
-                onClick={() => setShowPassword(!showPassword)}
+                onClick={(e) => setShowPassword(!showPassword)}
                 className="absolute right-3 top-1/2 text-black/40 hover:text-cyan-400 transition cursor-pointer"
               >
-                {showPassword ? <EyeOff size={24} /> : <Eye size={24} />}
+                {showPassword ? <Eye size={24} /> : <EyeOff size={24} />}
               </button>
             </div>
             <div className="flex items-center justify-between">
