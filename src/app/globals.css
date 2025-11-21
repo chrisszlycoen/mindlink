@@ -24,3 +24,72 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Mist/Smoke Flow Animations - Thin lines drifting across screen */
+@keyframes mist-flow-1 {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(200%) translateY(-20px) rotate(2deg);
+    opacity: 0;
+  }
+}
+
+@keyframes mist-flow-2 {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.5;
+  }
+  85% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(250%) translateY(15px) rotate(-1deg);
+    opacity: 0;
+  }
+}
+
+@keyframes mist-flow-3 {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.4;
+  }
+  88% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateX(220%) translateY(-10px) rotate(1deg);
+    opacity: 0;
+  }
+}
+
+@keyframes mist-rise {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(-150%) translateX(10px);
+    opacity: 0;
+  }
+}
+

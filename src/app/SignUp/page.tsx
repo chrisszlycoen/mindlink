@@ -2,11 +2,11 @@
 import { useState } from "react";
 import {motion} from "framer-motion";
 import Link from 'next/link';
-import Navbar from "@/components/ui/Navbar";
 import {Button} from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {Eye, EyeOff, Github, Mail } from "lucide-react"
+import SnowBackground from "@/components/SnowBackground";
 
 
 
@@ -111,7 +111,7 @@ export default function SignUp(){
 
     return(
         <div className="min-h-screen bg-linear-to-br from-primary-50 to-primary-100 flex items-center justify-center pt-6">
-            <Navbar/>
+            <SnowBackground />        
 
             <motion.div
             initial={{ opacity: 0, y: -20 }}

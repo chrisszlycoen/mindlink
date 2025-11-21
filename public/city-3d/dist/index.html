@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindLink – Healing Through AI</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { 
+      height: 100%; overflow: hidden; background: #000; 
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+    canvas { position: fixed; top: 0; left: 0; z-index: 1; }
+
+    .overlay {
+      position: fixed; inset: 0; z-index: 10;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 2rem; pointer-events: none; text-align: center;
+    }
+
+    .logo {
+      font-size: 6.8rem; font-weight: 900;
+      background: linear-gradient(120deg, #67e8f9, #a5f3fc, #ffffff, #c0fdff);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      letter-spacing: -0.04em; opacity: 0; transform: translateY(60px);
+      text-shadow: 0 0 40px rgba(103,232,249,0.4);
+    }
+
+    .tagline {
+      font-size: 1.9rem; font-weight: 300; color: #e0f7ff; max-width: 860px;
+      line-height: 1.5; margin: 2rem 0 3.5rem; opacity: 0; transform: translateY(40px);
+    }
+
+    .cta {
+      pointer-events: all; padding: 1.5rem 4rem; font-size: 1.65rem; font-weight: 800;
+      background: white; color: #000; border: none; border-radius: 60px;
+      cursor: pointer; display: inline-flex; align-items: center; gap: 1.2rem;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5); opacity: 0;
+      transform: translateY(50px) scale(0.9); position: relative; overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .cta:hover {
+      transform: translateY(-8px) scale(1.08);
+      box-shadow: 0 30px 80px rgba(103, 232, 249, 0.7);
+    }
+
+    .cta::before {
+      content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+      transition: left 0.7s;
+    }
+    .cta:hover::before { left: 100%; }
+
+    .arrow {
+      width: 3.4rem; height: 3.4rem; background: #67e8f9; border-radius: 50%;
+      display: grid; place-items: center; flex-shrink: 0;
+    }
+
+    .trusted {
+      position: absolute; bottom: 3rem; color: #67e8f9; font-size: 0.95rem;
+      letter-spacing: 0.3em; text-transform: uppercase; opacity: 0; font-weight: 500;
+    }
+
+    .glow-line {
+      position: absolute; bottom: 5.5rem; width: 200px; height: 2px;
+      background: linear-gradient(90deg, transparent, #67e8f9, transparent);
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <h1 class="logo">MindLink</h1>
+    <p class="tagline">
+      Your always-available AI companion for emotional healing<br>
+      Private, Empathetic and Available 24/7 in <strong> English and other languages coming soon</strong>
+    </p>
+
+    <button class="cta" onclick="window.location.href='/SignUp'">
+      <span class="arrow">
+        <!-- Real right arrow -->
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </span>
+      Start Healing Today
+    </button>
+
+    <div class="glow-line"></div>
+    <div class="trusted">Trusted by thousands in East Africa</div>
+  </div>
+
+  <!-- Your Three.js city (black cubes + 0x67e8f9 fog) -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+  <script src="./script.js"></script>
+
+  <!-- Intro Animations -->
+  <script>
+    gsap.timeline()
+      .to(".logo", { opacity: 1, y: 0, duration: 1.6, ease: "power4.out" })
+      .to(".tagline", { opacity: 1, y: 0, duration: 1.4, ease: "power3.out" }, "-=1.2")
+      .to(".cta", { opacity: 1, y: 0, scale: 1, duration: 1.2, ease: "back.out(1.4)" }, "-=1")
+      .to(".glow-line", { opacity: 0.8, duration: 1.5 }, "-=0.8")
+      .to(".trusted", { opacity: 0.7, duration: 1.8 }, "-=1.2");
+
+    gsap.to(".logo", { y: -15, duration: 4, repeat: -1, yoyo: true, ease: "sine.inOut" });
+    gsap.to(".cta", { boxShadow: "0 30px 80px rgba(103, 232, 249, 0.7)", duration: 2, repeat: -1, yoyo: true, ease: "sine.inOut" });
+  </script>
+</body>
+</html>
