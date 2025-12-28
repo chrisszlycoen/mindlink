@@ -5,7 +5,7 @@ It uses **AI emotional intelligence**, **real-time mood recognition**, and **per
 
 ---
 
-##  Vision
+##  Vision 
 Our world is facing a silent epidemic — mental health crises, social isolation, and burnout.  
 MindLink aims to **make emotional support accessible**, **personalized**, and **empathetic** through responsible AI.
 
