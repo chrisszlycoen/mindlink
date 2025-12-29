@@ -11,6 +11,7 @@ function Checkbox({
   ...props
 }: React.ComponentProps<typeof CheckboxPrimitive.Root>) {
   return (
+
     <CheckboxPrimitive.Root
       data-slot="checkbox"
       className={cn(
