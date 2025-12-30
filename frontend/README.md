@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 MindLink — Reconnecting Humanity Through AI
 
-## Getting Started
+**MindLink** is an AI-driven mental wellness platform that bridges the gap between emotional distress and timely support.  
+It uses **AI emotional intelligence**, **real-time mood recognition**, and **personalized coping guidance** to empower people to understand, track, and improve their mental health — one thought at a time.
 
-First, run the development server:
+---
+
+##  Vision
+Our world is facing a silent epidemic — mental health crises, social isolation, and burnout.  
+MindLink aims to **make emotional support accessible**, **personalized**, and **empathetic** through responsible AI.
+
+We align with the following UN **Sustainable Development Goals (SDGs):**
+- **SDG 3:** Good Health & Well-being  
+- **SDG 4:** Quality Education (through emotional literacy tools)  
+- **SDG 9:** Industry, Innovation & Infrastructure  
+- **SDG 10:** Reduced Inequalities (AI for all, multilingual support)
+
+---
+
+##  How It Works
+
+### AI Emotion Detection
+Users interact with **MindLink AI**, a conversational assistant powered by emotion-sensitive large language models.  
+It understands user sentiment from text or voice, identifies emotional tone, and responds with empathy.
+
+### Personalized Support
+The AI provides:
+- Journaling prompts   
+- Mood visualization dashboards   
+- Guided breathing or mindfulness sessions   
+- Suggestions for nearby therapists or counselors (optional API integration)   
+
+### Secure and Private
+All user data is encrypted and processed with privacy in mind — no cloud storage without consent.
+
+---
+
+##  Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React.js / Next.js + Tailwind CSS + Figma Design |
+| **AI Core** | OpenAI / Hugging Face Transformers (sentiment & chat models) |
+| **Backend** | Node.js (Express) + MongoDB / Firebase |
+| **Voice & Emotion** | Web Speech API / Whisper API for emotion detection |
+| **Hosting** | Vercel / Render / Railway |
+| **Version Control** | GitHub |
+
+---
+
+##  Features
+
+-  Emotion Recognition (Text & Voice)
+-  AI Therapist Chatbot
+-  Mood Tracker & History
+-  AI-Generated Mental Health Journals
+-  Guided Exercises (Audio-based)
+-  Multilingual Support
+-  Secure, Anonymous Mode
+
+---
+
+## 🧠 Why MindLink?
+
+> “Mental health is not a luxury — it’s a necessity.”  
+MindLink leverages **AI empathy and data insight** to bring hope, calm, and clarity to millions silently struggling.
+
+Our platform redefines what digital wellness means — blending technology with humanity.
+
+---
+
+## 👥 Team
+
+- **Founder & Lead Developer:** Chrisostom “Code888” Uhiriwe  
+- **AI Research & Integration:** Mr. Chrisostom  
+- **UX/UI Design:** Mr. Chrisotom
+
+---
+
+## ⚙️ Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/chrisszlycoen/mindlink.git
+cd mindlink
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
