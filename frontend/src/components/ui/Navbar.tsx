@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useEffect, useState } from "react";
 import Link from 'next/link';
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
@@ -25,16 +25,9 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative h-screen">
+    <>              
       {/* Background */}
       <div className="absolute top-0 left-0 w-full h-full">
-        <Image
-          src="/1.png"
-          alt="Background"
-          fill
-          className="object-cover"
-          priority
-        />
       </div>
 
       {/* Floating Navbar */}
@@ -82,7 +75,7 @@ const Navbar: React.FC = () => {
           </Button>
         </div>
       </motion.nav>
-    </div>
+    </>
   );
 };
 
