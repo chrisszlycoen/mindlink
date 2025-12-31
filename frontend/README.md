@@ -82,7 +82,7 @@ Our platform redefines what digital wellness means — blending technology with 
 ```bash
 # Clone the repo
 git clone https://github.com/chrisszlycoen/mindlink.git
-cd mindlink
+cd mindlink 
 
 # Install dependencies
 npm install
