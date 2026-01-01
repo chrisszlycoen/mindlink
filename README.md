@@ -37,6 +37,7 @@ All user data is encrypted and processed with privacy in mind — no cloud stora
 
 ##  Tech Stack
 
+
 | Layer | Technology |
 |-------|-------------|
 | **Frontend** | React.js / Next.js + Tailwind CSS + Figma Design |
