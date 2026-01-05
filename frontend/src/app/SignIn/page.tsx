@@ -96,7 +96,7 @@ export default function SignIn() {
             Don't have an account?{" "}
             <Link href="/SignUp" className="text-gray-700 hover:text-cyan-400 space-x-2">Sign Up</Link>
           </div>
-        </div>
+        </div> 
       </motion.div>
 
     </div>
