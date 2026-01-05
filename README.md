@@ -76,7 +76,6 @@ Our platform redefines what digital wellness means — blending technology with 
 - **AI Research & Integration:** Mr. Chrisostom  
 - **UX/UI Design:** Mr. Chrisotom
 
-
 ---
 
 ## ⚙️ Installation
