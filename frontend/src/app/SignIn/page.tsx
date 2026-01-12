@@ -12,8 +12,8 @@ import SnowBackground from "@/components/SnowBackground";
 
 export default function SignIn() {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const [password, setPassword] = useState("");
 
   return (
     <div className="min-h-screen bg-linear-to-br from-primary-50 to-primary-100 flex items-center justify-center pt-16">
