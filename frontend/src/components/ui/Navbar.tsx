@@ -5,8 +5,8 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import clsx from 'clsx';
+import { Button } from "@/components/ui/button";
 
 const Navbar: React.FC = () => {
   const [hidden, setHidden] = useState(false);
