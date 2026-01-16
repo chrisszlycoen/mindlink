@@ -32,4 +32,3 @@ function Checkbox({
 }
 
 export { Checkbox }
-
