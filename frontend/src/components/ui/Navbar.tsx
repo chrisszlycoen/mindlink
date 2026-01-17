@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex space-x-6">
             {["Home", "About", "Services", "Blog", "Contact"].map((item) => (
               <Link
-                key={item}
+                key={item} 
                 href="/"
                 className="relative text-white text-sm uppercase tracking-wide hover:text-cyan-400 transition duration-300 group"
               >
