@@ -198,7 +198,7 @@ export default function SignUp(){
                         <div className="relative">
                             <div className="absolute inset-0 flex items-center">
                                 <span className="w-full border-t text-cyan-400"></span>
-                            </div>
+                            </div> 
                             <div className="relative flex justify-center text-xs uppercase">
                                 <span className="bg-white px-2 rounded-2xl text-black/75">Or Continue With</span>
                             </div>
