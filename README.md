@@ -11,8 +11,8 @@ MindLink aims to **make emotional support accessible**, **personalized**, and **
 
 We align with the following UN **Sustainable Development Goals (SDGs):**
 - **SDG 3:** Good Health & Well-being  
-- **SDG 4:** Quality Education (through emotional literacy tools)  
 - **SDG 9:** Industry, Innovation & Infrastructure  
+- **SDG 4:** Quality Education (through emotional literacy tools)  
 - **SDG 10:** Reduced Inequalities (AI for all, multilingual support)
 
 ---
