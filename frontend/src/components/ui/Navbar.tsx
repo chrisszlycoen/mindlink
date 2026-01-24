@@ -46,6 +46,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <span className="text-cyan-400 text-xl font-bold tracking-widest">
+
               𝓜𝓲𝓷𝓭𝓛𝓲𝓷𝓴
             </span>
           </div>
