@@ -82,7 +82,7 @@ export default function SignUp(){
             }
             .alert-error {
                 display: flex;
-                align-items: center;
+                align-items: center; 
                 background-color: red;
                 opacity: 0.6;
             }
