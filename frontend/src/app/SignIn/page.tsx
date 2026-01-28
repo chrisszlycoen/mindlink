@@ -53,7 +53,7 @@ export default function SignIn() {
                 placeholder="Enter the password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                type={showPassword ? "text" : "password"}
+                type={showPassword ? "text" : "password"} 
                 required
                 className="border-none bg-black/5 pr-10 placeholder:text-black/30 text-black/70"
               />
