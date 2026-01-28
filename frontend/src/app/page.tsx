@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 export default function Home() {
-  return ( 
+  return (
     <main className="h-screen w-screen overflow-hidden">
       <iframe
 
