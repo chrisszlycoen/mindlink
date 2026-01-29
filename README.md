@@ -61,7 +61,7 @@ All user data is encrypted and processed with privacy in mind — no cloud stora
 
 ---
 
-## 🧠 Why MindLink?
+## 🧠 Why MindLink? 
 
 > “Mental health is not a luxury — it’s a necessity.”  
 MindLink leverages **AI empathy and data insight** to bring hope, calm, and clarity to millions silently struggling.
