@@ -129,7 +129,7 @@ export default function SignUp(){
                             <div className="space-y-2">
                                 <Label htmlFor="email" className="text-black/40">Email</Label>
                                 <Input
-                                className="border-none bg-black/5 placeholder:text-black/30 text-black/70"
+                                className="border-none bg-black/5 placeholder:text-black/30 text-black/70" 
                                 id="email"
                                 type="email"
                                 placeholder="Enter your email"
