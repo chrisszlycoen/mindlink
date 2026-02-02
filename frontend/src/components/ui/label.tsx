@@ -23,4 +23,3 @@ function Label({
 }
 
 export { Label }
-
