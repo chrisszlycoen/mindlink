@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
-import { motion } from "framer-motion";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Eye, EyeOff, Github, Mail } from "lucide-react";
