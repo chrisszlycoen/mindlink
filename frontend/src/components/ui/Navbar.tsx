@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
+import { motion } from "framer-motion";
 import clsx from 'clsx';
 import { Button } from "@/components/ui/button";
 
