@@ -9,7 +9,6 @@ import {Eye, EyeOff, Github, Mail } from "lucide-react"
 import SnowBackground from "@/components/SnowBackground";
 
 
-
 export default function SignUp(){
     const[email, setEmail] = useState('');
     const[name, setName] = useState('');
