@@ -40,6 +40,7 @@ All user data is encrypted and processed with privacy in mind — no cloud stora
 | Layer | Technology |
 |-------|-------------|
 | **Frontend** | React.js / Next.js + Tailwind CSS + Figma Design |
+
 | **AI Core** | OpenAI / Hugging Face Transformers (sentiment & chat models) |
 | **Backend** | Node.js (Express) + MongoDB / Firebase |
 | **Voice & Emotion** | Web Speech API / Whisper API for emotion detection |
