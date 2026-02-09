@@ -30,7 +30,7 @@ body {
 /* Mist/Smoke Flow Animations - Thin lines drifting across screen */
 @keyframes mist-flow-1 {
   0% {
-    transform: translateX(0) translateY(0) rotate(0deg);
+    transform: translateX(0) translateY(0) rotate(0deg); 
     opacity: 0;
   }
   10% {
