@@ -71,6 +71,7 @@ const Navbar: React.FC = () => {
             className="hidden md:flex items-center gap-2 border-cyan-400 text-cyan-400 
                        hover:bg-cyan-400 hover:text-black transition"
           >
+
             <Mail className="h-4 w-4" />
             Contact
           </Button>
