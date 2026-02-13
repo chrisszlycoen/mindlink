@@ -55,8 +55,8 @@ All user data is encrypted and processed with privacy in mind — no cloud stora
 -  Mood Tracker & History
 -  AI Therapist Chatbot
 -  Multilingual Support
--  AI-Generated Mental Health Journals 
 -  Guided Exercises (Audio-based)
+-  AI-Generated Mental Health Journals 
 -  Secure, Anonymous Mode
 
 ---
