@@ -72,7 +72,7 @@ Our platform redefines what digital wellness means — blending technology with 
 
 ## 👥 Team
 
-- **Founder & Lead Developer:** Chrisostom “Code888” Uhiriwe  
+- **Founder & Lead Developer:** Chrisostom “Code888” Uhiriwe
 - **AI Research & Integration:** Mr. Chrisostom  
 - **UX/UI Design:** Mr. Chrisotom
 
