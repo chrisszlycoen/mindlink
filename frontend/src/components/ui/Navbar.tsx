@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
               <Link
                 key={item} 
                 href="/"
-                className="relative text-white text-sm uppercase tracking-wide hover:text-cyan-400 transition duration-300 group"
+                className="relative text-white text-sm uppercase tracking-wide hover:text-cyan-400 transition duration-300 group" 
               >
                 {item}
                 <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full" />
