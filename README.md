@@ -27,6 +27,7 @@ It understands user sentiment from text or voice, identifies emotional tone, and
 The AI provides:
 - Journaling prompts   
 - Guided breathing or mindfulness sessions   
+
 - Mood visualization dashboards   
 - Suggestions for nearby therapists or counselors (optional API integration)   
 
