@@ -21,6 +21,7 @@ We align with the following UN **Sustainable Development Goals (SDGs):**
 
 ### AI Emotion Detection
 Users interact with **MindLink AI**, a conversational assistant powered by emotion-sensitive large language models.  
+
 It understands user sentiment from text or voice, identifies emotional tone, and responds with empathy.
 
 ### Personalized Support
