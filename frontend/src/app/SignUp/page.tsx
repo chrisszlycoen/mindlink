@@ -9,7 +9,6 @@ import { Label } from "@/components/ui/label";
 import SnowBackground from "@/components/SnowBackground";
 import {Eye, EyeOff, Github, Mail } from "lucide-react"
 
-
 export default function SignUp(){
     const[email, setEmail] = useState('');
     const[name, setName] = useState('');
