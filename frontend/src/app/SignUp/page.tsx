@@ -6,8 +6,8 @@ import Link from 'next/link';
 import {Button} from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import {Eye, EyeOff, Github, Mail } from "lucide-react"
 import SnowBackground from "@/components/SnowBackground";
+import {Eye, EyeOff, Github, Mail } from "lucide-react"
 
 
 export default function SignUp(){
