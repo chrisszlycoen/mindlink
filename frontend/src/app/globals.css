@@ -65,7 +65,7 @@ body {
 
 @keyframes mist-flow-3 {
   0% {
-    transform: translateX(0) translateY(0) rotate(0deg);
+    transform: translateX(0) translateY(0) rotate(0deg); 
     opacity: 0;
   }
   12% {
