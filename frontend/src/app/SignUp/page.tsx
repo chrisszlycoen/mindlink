@@ -169,7 +169,7 @@ export default function SignUp(){
                                 </button>
                             </div>
                             <div className="space-y-2 relative">
-                                <Label htmlFor="confirmPassword" className="text-black/40">Confirm Password</Label>
+                                <Label htmlFor="confirmPassword" className="text-black/40">Confirm Password</Label> 
                                 <Input
                                 className="border-none bg-black/5 placeholder:text-black/30 text-black/70 text-base" 
                                 id="confirmPassword"
