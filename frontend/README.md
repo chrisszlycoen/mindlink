@@ -1,7 +1,7 @@
 # 🧠 MindLink — Reconnecting Humanity Through AI
 
 **MindLink** is an AI-driven mental wellness platform that bridges the gap between emotional distress and timely support.  
-It uses **AI emotional intelligence**, **real-time mood recognition**, and **personalized coping guidance** to empower people to understand, track, and improve their mental health — one thought at a time.
+It uses **AI emotional intelligence**, **real-time mood recognition**, and **personalized coping guidance** to empower people to understand, track, and improve their mental health — one thought at a time. 
 
 ---
 
