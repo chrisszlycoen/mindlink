@@ -1,7 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import React, { useEffect, useState } from "react";
+import Link from 'next/link';
 import Image from "next/image";
 import { Mail } from "lucide-react";
 import { motion } from "framer-motion";
