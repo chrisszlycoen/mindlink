@@ -53,7 +53,7 @@ All user data is encrypted and processed with privacy in mind — no cloud stora
 
 ##  Features
 
--  Emotion Recognition (Text & Voice)
+-  Emotion Recognition (Text & Voice) 
 -  AI Therapist Chatbot
 -  Guided Exercises (Audio-based)
 -  Mood Tracker & History
