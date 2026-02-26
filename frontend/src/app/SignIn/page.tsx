@@ -33,7 +33,7 @@ export default function SignIn() {
           </div>
 
           <form className="space-y-4">
-            <div className="space-y-2">
+            <div className="space-y-2"> 
 
               <Label htmlFor="email" className="text-black/40">Email</Label>
               <Input
