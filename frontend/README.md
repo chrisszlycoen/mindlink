@@ -44,8 +44,8 @@ All user data is encrypted and processed with privacy in mind — no cloud stora
 
 | **AI Core** | OpenAI / Hugging Face Transformers (sentiment & chat models) |
 
-| **Backend** | Node.js (Express) + MongoDB / Firebase |
 | **Voice & Emotion** | Web Speech API / Whisper API for emotion detection |
+| **Backend** | Node.js (Express) + MongoDB / Firebase |
 | **Hosting** | Vercel / Render / Railway |
 | **Version Control** | GitHub |
 
