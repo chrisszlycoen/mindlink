@@ -70,6 +70,7 @@ MindLink leverages **AI empathy and data insight** to bring hope, calm, and clar
 
 Our platform redefines what digital wellness means — blending technology with humanity.
 
+
 ---
 
 
